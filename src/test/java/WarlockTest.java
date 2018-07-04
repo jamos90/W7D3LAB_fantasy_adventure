@@ -10,12 +10,12 @@ public class WarlockTest {
 
     @Before
     public void setUp(){
-        warlock = new Warlock("Gandalf", 95);
+        warlock = new Warlock("Walter", 95);
     }
 
     @Test
     public void hasName(){
-        assertEquals("Gandalf", warlock.getName());
+        assertEquals("Walter", warlock.getName());
     }
 
     @Test
