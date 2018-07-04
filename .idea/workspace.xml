@@ -494,7 +494,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WarlockTest">
+  <component name="RunManager" selected="JUnit.WizardTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -532,23 +532,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DwarfTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantsyAdventure_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DwarfTest" />
-      <option name="METHOD_NAME" value="hasName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="KnightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantsyAdventure_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -572,6 +555,23 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WarlockTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WizardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantsyAdventure_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WizardTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -632,19 +632,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DwarfTest.hasName" />
       <item itemvalue="JUnit.DwarfTest.hasHP" />
       <item itemvalue="JUnit.BarbarianTest" />
       <item itemvalue="JUnit.KnightTest" />
       <item itemvalue="JUnit.WarlockTest" />
+      <item itemvalue="JUnit.WizardTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WizardTest" />
         <item itemvalue="JUnit.WarlockTest" />
         <item itemvalue="JUnit.KnightTest" />
         <item itemvalue="JUnit.BarbarianTest" />
         <item itemvalue="JUnit.DwarfTest.hasHP" />
-        <item itemvalue="JUnit.DwarfTest.hasName" />
       </list>
     </recent_temporary>
   </component>
