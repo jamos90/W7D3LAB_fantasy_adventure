@@ -12,7 +12,6 @@ public class Barbarian extends Players.Player implements IWeapon {
         this.weapon = weapon;
     }
 
-
     public void changeWeapon(Weapon weapon){
         this.weapon = weapon;
 

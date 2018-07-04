@@ -1,10 +1,23 @@
 package Players.Fighters;
 
-import Players.Player;
+import Behaviours.IWeapon;
+import Skills.Weapon;
 
-public class Dwarf extends Player {
+public class Dwarf extends Players.Player implements IWeapon {
 
-    public Dwarf(String name, int hp){
+    protected Weapon weapon;
+
+    public Dwarf(String name, int hp, Weapon weapon){
         super(name, hp);
+        this.weapon = weapon;
+    }
+
+    public String getWeaponName() {
+        return this.weapon.getName();
+    }
+
+    public void changeWeapon(Weapon weapon){
+        this.weapon = weapon;
+
     }
 }
