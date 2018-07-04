@@ -41,6 +41,12 @@ import static org.junit.Assert.assertEquals;
             assertEquals("Stabber", knight.getWeaponName());
         }
 
+        @Test
+        public void armourIncreasesHP(){
+            knight.protectiveArmour(10);
+            assertEquals(80,knight.getHP());
+        }
+
     }
 
 

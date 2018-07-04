@@ -19,4 +19,8 @@ public class Knight extends Players.Player implements IWeapon {
     public void changeWeapon(Weapon weapon){
         this.weapon = weapon;
     }
+
+    public void protectiveArmour(int hpBoost){
+        this.hp += hpBoost;
+    }
 }
