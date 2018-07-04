@@ -1,8 +1,22 @@
 package Players.Fighters;
 
-public class Knight extends Players.Player {
+import Behaviours.IWeapon;
+import Skills.Weapon;
 
-    public Knight(String name, int hp){
+public class Knight extends Players.Player implements IWeapon {
+
+    protected Weapon weapon;
+
+    public Knight(String name, int hp, Weapon weapon){
         super(name, hp);
+        this.weapon = weapon;
+    }
+
+    public String getWeaponName() {
+        return this.weapon.getName();
+    }
+
+    public void changeWeapon(Weapon weapon){
+        this.weapon = weapon;
     }
 }

@@ -18,6 +18,5 @@ public class Dwarf extends Players.Player implements IWeapon {
 
     public void changeWeapon(Weapon weapon){
         this.weapon = weapon;
-
     }
 }

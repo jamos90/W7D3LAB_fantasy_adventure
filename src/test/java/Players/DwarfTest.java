@@ -29,7 +29,6 @@ public class DwarfTest {
         assertEquals(80, dwarf.getHP());
     }
 
-
     @Test
     public void hasWeapon(){
         assertEquals("Smasher", dwarf.getWeaponName());
