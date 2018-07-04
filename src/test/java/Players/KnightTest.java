@@ -1,29 +1,30 @@
-import Players.Fighters.Barbarian;
+package Players;
+
+import Players.Fighters.Knight;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class BarbarianTest {
 
-        Barbarian barbarian;
+    public class KnightTest {
+        Knight knight;
 
         @Before
         public void setUp(){
-            barbarian = new Barbarian("Conan", 90);
+            knight = new Knight("Sir Galahad", 70);
         }
 
         @Test
         public void hasName(){
-            assertEquals("Conan", barbarian.getName());
+            assertEquals("Sir Galahad", knight.getName());
         }
 
         @Test
         public void hasHP(){
-            assertEquals(90, barbarian.getHP());
+            assertEquals(70, knight.getHP());
         }
 
     }
-
 
 

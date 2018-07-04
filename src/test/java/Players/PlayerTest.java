@@ -1,26 +1,29 @@
-import Players.Magic.Warlock;
+package Players;
+
+import Players.Player;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class WarlockTest {
-
-    Warlock warlock;
+public class PlayerTest {
+    Player player;
 
     @Before
     public void setUp(){
-        warlock = new Warlock("Walter", 95);
+        player = new Player("Ben", 100);
     }
 
     @Test
     public void hasName(){
-        assertEquals("Walter", warlock.getName());
+        assertEquals("Ben", player.getName());
     }
 
     @Test
     public void hasHP(){
-        assertEquals(95, warlock.getHP());
+        assertEquals(100, player.getHP());
     }
+
+
 
 }

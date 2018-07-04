@@ -1,3 +1,5 @@
+package Skills;
+
 import Skills.Spell;
 import org.junit.Before;
 import org.junit.Test;

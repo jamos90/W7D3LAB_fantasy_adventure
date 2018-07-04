@@ -1,3 +1,5 @@
+package Skills;
+
 import Skills.Restoration;
 import Skills.Weapon;
 import org.junit.Before;

@@ -1,26 +1,29 @@
+package Players;
+
+import Players.Healers.Cleric;
 import Players.Magic.Wizard;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class WizardTest {
+public class ClericTest {
 
-    Wizard wizard;
+    Cleric cleric;
 
     @Before
     public void setUp(){
-        wizard = new Wizard("Dumbledore", 100);
+        cleric = new Cleric("Dr. James", 100);
     }
 
     @Test
     public void hasName(){
-        assertEquals("Dumbledore", wizard.getName());
+        assertEquals("Dr. James", cleric.getName());
     }
 
     @Test
     public void hasHP(){
-        assertEquals(100, wizard.getHP());
+        assertEquals(100, cleric.getHP());
     }
 
 }

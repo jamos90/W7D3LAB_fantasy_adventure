@@ -1,3 +1,5 @@
+package Skills;
+
 import Skills.Guardian;
 import org.junit.Before;
 import org.junit.Test;
