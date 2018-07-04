@@ -44,4 +44,10 @@ public class WizardTest {
         assertEquals("Lightning Strike", wizard.getSpellName());
     }
 
+    @Test
+    public void canIncreaseSpellDamage(){
+        wizard.spellDamageBonus(spell1,10);
+        assertEquals(50, spell1.getDamage());
+    }
+
 }

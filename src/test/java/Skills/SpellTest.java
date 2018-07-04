@@ -24,5 +24,11 @@ public class SpellTest {
         assertEquals("Fireball", spell1.getName());
     }
 
+    @Test
+    public void increaseSpellDamage(){
+        spell1.increaseDamage(10);
+        assertEquals(50,spell1.getDamage());
+    }
+
 
 }

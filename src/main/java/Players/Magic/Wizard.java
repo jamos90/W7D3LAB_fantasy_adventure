@@ -21,4 +21,8 @@ public class Wizard extends Player implements IMagic {
         this.spell = spell;
     }
 
+    public void spellDamageBonus(Spell spell, int damageBonus){
+       spell.increaseDamage(damageBonus);
+    }
+
 }

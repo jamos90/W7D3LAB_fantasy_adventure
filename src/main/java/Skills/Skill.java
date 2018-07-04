@@ -23,4 +23,8 @@ public abstract class Skill {
     public int getDamage() {
         return this.damage;
     }
+
+    public void increaseDamage(int damageIncrease){
+        this.damage += damageIncrease;
+    }
 }
