@@ -1,10 +1,24 @@
 package Players.Fighters;
 
-public class Barbarian extends Players.Player {
+import Behaviours.IWeapon;
+import Skills.Weapon;
 
-    public Barbarian(String name, int hp){
+public class Barbarian extends Players.Player implements IWeapon {
+
+    private Weapon weapon;
+
+    public Barbarian(String name, int hp, Weapon weapon){
         super(name,hp);
+        this.weapon = weapon;
     }
 
 
+    public void changeWeapon(Weapon weapon){
+        this.weapon = weapon;
+
+    }
+
+    public String getWeaponName() {
+        return this.weapon.getName();
+    }
 }
