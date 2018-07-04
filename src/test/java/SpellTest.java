@@ -1,5 +1,8 @@
 import Skills.Spell;
 import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class SpellTest {
 
@@ -9,7 +12,15 @@ public class SpellTest {
 
     @Before
     public void setUp(){
-        spell =
-
+        spell1 = new Spell("Fireball", "Burn", 40);
+        spell2 = new Spell("Lightning Strike", "Electricution", 50);
+        spell3 = new Spell("Whirlwind", "Drown", 60);
     }
+
+    @Test
+    public void hasName(){
+        assertEquals("Fireball", spell1.getName());
+    }
+
+
 }
