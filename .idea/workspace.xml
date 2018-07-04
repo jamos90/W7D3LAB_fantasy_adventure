@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6ae9298-5aa4-42f7-b9d9-c50adf7bf307" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Magic/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Magic/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Players/WizardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Players/WizardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Behaviours/IHeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Behaviours/IHeal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Players/ClericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Players/ClericTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -71,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WizardTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WizardTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Players/WizardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+            <state relative-caret-position="490">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#599#600#0" expanded="true" />
@@ -84,6 +83,53 @@
                 <element signature="e#744#745#0" expanded="true" />
                 <element signature="e#792#793#0" expanded="true" />
                 <element signature="e#856#857#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IHeal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Behaviours/IHeal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClericTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Players/ClericTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DwarfTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Players/DwarfTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMagic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Behaviours/IMagic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -443,6 +489,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Players/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/Players/Magic/Wizard.java" />
         <option value="$PROJECT_DIR$/src/test/java/Players/WizardTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Behaviours/IHeal.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Players/ClericTest.java" />
       </list>
     </option>
   </component>
@@ -583,11 +631,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WizardTest">
+  <component name="RunManager" selected="JUnit.ClericTest.canChangeWeapon">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="DwarfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClericTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantsyAdventure_test" />
       <extension name="coverage">
         <pattern>
@@ -598,7 +646,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Players" />
-      <option name="MAIN_CLASS_NAME" value="Players.DwarfTest" />
+      <option name="MAIN_CLASS_NAME" value="Players.ClericTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -610,7 +658,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DwarfTest.hasWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClericTest.canChangeWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantsyAdventure_test" />
       <extension name="coverage">
         <pattern>
@@ -621,8 +669,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Players" />
-      <option name="MAIN_CLASS_NAME" value="Players.DwarfTest" />
-      <option name="METHOD_NAME" value="hasWeapon" />
+      <option name="MAIN_CLASS_NAME" value="Players.ClericTest" />
+      <option name="METHOD_NAME" value="canChangeWeapon" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -751,19 +799,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DwarfTest" />
-      <item itemvalue="JUnit.DwarfTest.hasWeapon" />
       <item itemvalue="JUnit.KnightTest" />
       <item itemvalue="JUnit.WarlockTest" />
       <item itemvalue="JUnit.WizardTest" />
+      <item itemvalue="JUnit.ClericTest" />
+      <item itemvalue="JUnit.ClericTest.canChangeWeapon" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClericTest.canChangeWeapon" />
+        <item itemvalue="JUnit.ClericTest" />
         <item itemvalue="JUnit.WizardTest" />
         <item itemvalue="JUnit.WarlockTest" />
         <item itemvalue="JUnit.KnightTest" />
-        <item itemvalue="JUnit.DwarfTest.hasWeapon" />
-        <item itemvalue="JUnit.DwarfTest" />
       </list>
     </recent_temporary>
   </component>
@@ -781,9 +829,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DwarfTest_hasWeapon - 2018.07.04 at 13h 51m 28s.xml">
-      <configuration name="DwarfTest.hasWeapon" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DwarfTest - 2018.07.04 at 13h 53m 11s.xml">
       <configuration name="DwarfTest" configurationId="JUnit" />
     </history-entry>
@@ -811,6 +856,9 @@
     <history-entry file="WarlockTest - 2018.07.04 at 14h 23m 26s.xml">
       <configuration name="WarlockTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WizardTest - 2018.07.04 at 14h 27m 14s.xml">
+      <configuration name="WizardTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -826,7 +874,7 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.2969697" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49642345" visible="true" weight="0.13454546" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49642345" weight="0.13454546" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
@@ -1007,16 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Players/ClericTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/Room.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1156,13 +1194,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviours/IHeal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Skills/Weapon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1237,32 +1268,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Players/DwarfTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Behaviours/IWeapon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="28" selection-start-line="6" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviours/IMagic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1331,8 +1340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Players/WizardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        <state relative-caret-position="490">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#599#600#0" expanded="true" />
@@ -1341,6 +1350,45 @@
             <element signature="e#744#745#0" expanded="true" />
             <element signature="e#792#793#0" expanded="true" />
             <element signature="e#856#857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviours/IMagic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviours/IHeal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Players/DwarfTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Players/ClericTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
           </folding>
         </state>
       </provider>
