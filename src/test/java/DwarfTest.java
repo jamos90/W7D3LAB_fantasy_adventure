@@ -1,27 +1,25 @@
-import Players.Player;
+import Players.Fighters.Dwarf;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class PlayerTest {
-    Player player;
+public class DwarfTest {
+    Dwarf dwarf;
 
     @Before
     public void setUp(){
-        player = new Player("Ben", 100);
+        dwarf = new Dwarf("Gimli", 80);
     }
 
     @Test
     public void hasName(){
-        assertEquals("Ben", player.getName());
+        assertEquals("Gimli", dwarf.getName());
     }
 
     @Test
     public void hasHP(){
-        assertEquals(100, player.getHP());
+        assertEquals(80, dwarf.getHP());
     }
-
-
 
 }

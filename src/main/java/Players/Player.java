@@ -1,3 +1,5 @@
+package Players;
+
 public class Player {
 
     protected  String name;
@@ -10,5 +12,9 @@ public class Player {
 
     public String getName() {
         return this.name;
+    }
+
+    public int getHP() {
+        return this.hp;
     }
 }
