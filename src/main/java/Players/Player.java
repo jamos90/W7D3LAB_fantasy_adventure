@@ -1,5 +1,7 @@
 package Players;
 
+import Skills.Spell;
+
 public class Player {
 
     protected  String name;
@@ -17,4 +19,5 @@ public class Player {
     public int getHP() {
         return this.hp;
     }
+
 }
