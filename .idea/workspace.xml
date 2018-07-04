@@ -492,9 +492,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RestorationTest">
+  <component name="RunManager" selected="JUnit.GuardianTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="GuardianTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantsyAdventure_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuardianTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="RestorationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantsyAdventure_test" />
@@ -537,23 +554,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WeaponTest" />
       <option name="METHOD_NAME" value="hasDamage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="WeaponTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantsyAdventure_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WeaponTest" />
-      <option name="METHOD_NAME" value="hasName" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -630,19 +630,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.WeaponTest.hasName" />
       <item itemvalue="JUnit.WeaponTest.hasType" />
       <item itemvalue="JUnit.WeaponTest.hasDamage" />
       <item itemvalue="JUnit.SpellTest.hasName" />
       <item itemvalue="JUnit.RestorationTest" />
+      <item itemvalue="JUnit.GuardianTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuardianTest" />
         <item itemvalue="JUnit.RestorationTest" />
         <item itemvalue="JUnit.SpellTest.hasName" />
         <item itemvalue="JUnit.WeaponTest.hasDamage" />
         <item itemvalue="JUnit.WeaponTest.hasType" />
-        <item itemvalue="JUnit.WeaponTest.hasName" />
       </list>
     </recent_temporary>
   </component>
